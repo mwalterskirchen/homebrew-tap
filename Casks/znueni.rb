@@ -8,4 +8,8 @@ cask "znueni" do
   homepage "https://github.com/mwalterskirchen/znueni"
 
   app "znueni.app"
+
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/znueni.app"]
+  end
 end
