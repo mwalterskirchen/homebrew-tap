@@ -1,6 +1,6 @@
 cask "znueni" do
-  version "1.2.0"
-  sha256 "9f796fc40639cd2f3532f9118b72c2676b3dbe85c40531a367632da83c7f20ae"
+  version "1.3.0"
+  sha256 "9f244749d964b6424dce79078c377a767047ee5853fdda2282621234d9a48e4b"
 
   url "https://github.com/mwalterskirchen/znueni/releases/download/v#{version}/znueni.dmg"
   name "znueni"
